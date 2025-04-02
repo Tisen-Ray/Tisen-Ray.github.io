@@ -2,14 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Tisen-Ray.github.io/archives/</loc>
-    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
-  </url><url>
-    <loc>https://Tisen-Ray.github.io/post/</loc>
-    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
-  </url><url>
     <loc>https://Tisen-Ray.github.io/</loc>
-    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
+    <lastmod>2025-04-02T22:27:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -30,6 +24,41 @@
                 hreflang="en"
                 href="https://Tisen-Ray.github.io/"
                 />
+  </url><url>
+    <loc>https://Tisen-Ray.github.io/tags/</loc>
+    <lastmod>2025-04-02T22:27:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://Tisen-Ray.github.io/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://Tisen-Ray.github.io/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://Tisen-Ray.github.io/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://Tisen-Ray.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://Tisen-Ray.github.io/post/2025-4-2/</loc>
+    <lastmod>2025-04-02T22:27:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Tisen-Ray.github.io/tags/%E6%8A%98%E8%85%BE/</loc>
+    <lastmod>2025-04-02T22:27:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Tisen-Ray.github.io/archives/</loc>
+    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
+  </url><url>
+    <loc>https://Tisen-Ray.github.io/post/</loc>
+    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
   </url><url>
     <loc>https://Tisen-Ray.github.io/categories/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
@@ -59,29 +88,6 @@
   </url><url>
     <loc>https://Tisen-Ray.github.io/post/main/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
-  </url><url>
-    <loc>https://Tisen-Ray.github.io/tags/</loc>
-    <lastmod>2022-06-09T20:12:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://Tisen-Ray.github.io/ja/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://Tisen-Ray.github.io/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://Tisen-Ray.github.io/zh-tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://Tisen-Ray.github.io/tags/"
-                />
   </url><url>
     <loc>https://Tisen-Ray.github.io/categories/test/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>

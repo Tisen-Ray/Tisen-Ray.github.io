@@ -3,6 +3,18 @@
   
   
   {
+    "objectID": "1743552000",
+    "permalink": "/post/2025-4-2/",
+    "title": "基于HUGO-Obsidian-Github的个人博客部署",
+    
+    "content": "\n作为鄙人第一次拥有博客的纪念,在此介绍些许鄙人在个人博客部署的过程中所遇到的一些问题,以及相应的解决方案\n用到的工具 github obsidian 使用enveloppe插件来对笔记进行发布 hugo 实现步骤 [!cite] 关于hugo的部署以及enveloppe的配置,前人之述已经相当完备了.\n【教程】Hugo+Github博客部署 Enveloppe 插件适配 Hugo 的配置 | PrintLove 本文归根结底还是对两篇文章的串联方面的补充\n设计四个模块\nobsidian enveloppe模块,负责对文件进行导出 HUGO模块 此二者由Enveloppe 插件适配 Hugo 的配置 | PrintLove可一条龙解决 enveloppe的部署中,可能会出现一定的问题[Bug]: [META] Error during publishing, mostly because of GitHub REST API. · Issue #389 · Enveloppe/obsidian-enveloppe 这个bug是尚且没有修复的 其来源有些玄学 本人被其整破防了 但是最后通过重新安装该插件,问题就得到了解决 所以如果你不幸遇到了这个问题,请不要着急,重新安装即可!\ngithub hugo主文件夹 github hugo public文件夹 (不需要按照第一个链接的教程从本地创建,在配置主文件库的工作流之后,即可从0自动生成) 这样做的好处是,可以避免一些云端与本地的冲突 github模块 我们直接写出来的markdown文件夹是不能够直接作为网页进行渲染的,因此,hugo在其外层文件夹中,通过一系列的编码程序,将你的markdown文档转化为了可以部署为静态网页的html文件\n而这些可以部署的内容就是public文件夹\n可以得知我们的博客本身的部署,其实是不需要用到外面的hugo主文件夹的,其作用就是帮助我们进行更新.\n因此,hugo主文件夹创建之后,会接受两个指令\n一为enveloppe所传输的更新博客 一为运行hugo -D指令,进行网站更新部署的指令 而hugo -D的指令则传输到了public文件夹的github库中(确保该库是公开的). 由于该库名字为用户名.github.io,是你默认的githubpage的基础域名(如果你创建了其他部署在github上的网页,也会默认将网页部署在这个域名下) 因此它一经过更新,就会将你的静态网页部署到github的网页服务上.\nflow obsidian书写博客 enveloppe自动转化博客格式,将其上传到hugo主文件夹的库中 主文件夹库在接受到上传后,自动运行hugo-D 运行hugo -D后的文件传输至public库中 pubic库自动重新部署 🎉恭喜进入个人博客时代!🎉 ",
+    
+    "date": "2025-04-02 00:00:00",
+    "updated": "2025-04-02 22:27:00"
+  }
+  
+  , 
+  {
     "objectID": "1654776772",
     "permalink": "/post/main/",
     "title": "Markdown Basic Elements",

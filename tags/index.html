@@ -156,6 +156,10 @@
   
   
   
+    <meta property="fb:app_id" content="&lt;fb:app_id&gt;" />
+  
+  
+    <meta property="fb:admin_id" content="&lt;fb:admin_id&gt;" />
   
   
 
@@ -410,7 +414,7 @@
   <div class="sidebar-state-article">
     <div>Posts</div>
     
-    <div class="sidebar-state-number">3</div>
+    <div class="sidebar-state-number">2</div>
   </div>
   <div class="sidebar-state-category">
     <div>Categories</div>
@@ -681,10 +685,6 @@
               <a href="https://Tisen-Ray.github.io/post/main/">Markdown Basic Elements</a>
             </li>
           
-            <li>
-              <a href="https://Tisen-Ray.github.io/post/chinese/">中文測試</a>
-            </li>
-          
         </ul>
       </div>
     </div>
@@ -769,9 +769,6 @@
   
   
 
-  
-  
-
 
 
 <footer id="footer">
@@ -812,7 +809,7 @@
           
           
 
-          00:09
+          00:08
         </span>
       </div>
     
@@ -864,7 +861,7 @@
   <div class="sidebar-state-article">
     <div>Posts</div>
     
-    <div class="sidebar-state-number">3</div>
+    <div class="sidebar-state-number">2</div>
   </div>
   <div class="sidebar-state-category">
     <div>Categories</div>
@@ -1180,6 +1177,39 @@
 
 
 
+
+<script data-pjax>
+  var giscusContainer = document.querySelector('.giscus');
+  if (giscusContainer) {
+    const giscusScript = document.createElement('script');
+    const domMode = document.documentElement.getAttribute("data-theme");
+    giscusScript.src = 'https://giscus.app/client.js';
+    giscusScript.setAttribute('data-repo', 'Tisen-Ray\/Tisen-Ray.github.io');
+    giscusScript.setAttribute('data-repo-id', '');
+    giscusScript.setAttribute('data-category', '');
+    giscusScript.setAttribute('data-category-id', 'Comments');
+    giscusScript.setAttribute('data-mapping', '100');
+    giscusScript.setAttribute('data-strict', '100');
+    giscusScript.setAttribute('data-reactions-enabled', '1');
+    giscusScript.setAttribute('data-emit-metadata', '0');
+    giscusScript.setAttribute('data-input-position', 'bottom');
+    giscusScript.setAttribute('data-theme', domMode === 'dark' ? 'dark' : 'light');
+    giscusScript.setAttribute('data-lang', 'zh-CN');
+    giscusScript.setAttribute('crossorigin', 'anonymous');
+    giscusScript.async = true;
+    giscusContainer.appendChild(giscusScript);
+    document.body.addEventListener('light-theme-set', () => {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe) return;
+      iframe.contentWindow.postMessage({ giscus: { setConfig: { theme: 'light' } } }, 'https://giscus.app');
+    });
+    document.body.addEventListener('dark-theme-set', () => {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe) return;
+      iframe.contentWindow.postMessage({ giscus: { setConfig: { theme: 'dark' } } }, 'https://giscus.app');
+    });
+}
+</script>
 
       
     

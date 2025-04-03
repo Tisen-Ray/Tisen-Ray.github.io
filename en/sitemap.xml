@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://Tisen-Ray.github.io/</loc>
-    <lastmod>2025-04-02T22:27:00+00:00</lastmod>
+    <lastmod>2025-04-03T21:46:25+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -24,6 +24,12 @@
                 hreflang="en"
                 href="https://Tisen-Ray.github.io/"
                 />
+  </url><url>
+    <loc>https://Tisen-Ray.github.io/about/</loc>
+    <lastmod>2025-04-02T22:27:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Tisen-Ray.github.io/friend/</loc>
+    <lastmod>2025-04-02T22:27:00+00:00</lastmod>
   </url><url>
     <loc>https://Tisen-Ray.github.io/tags/</loc>
     <lastmod>2025-04-02T22:27:00+00:00</lastmod>
@@ -53,9 +59,6 @@
   </url><url>
     <loc>https://Tisen-Ray.github.io/tags/%E6%8A%98%E8%85%BE/</loc>
     <lastmod>2025-04-02T22:27:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Tisen-Ray.github.io/archives/</loc>
-    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
   </url><url>
     <loc>https://Tisen-Ray.github.io/post/</loc>
     <lastmod>2022-07-26T21:46:25+08:00</lastmod>
@@ -93,15 +96,6 @@
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url><url>
     <loc>https://Tisen-Ray.github.io/tags/test/</loc>
-    <lastmod>2022-06-09T20:12:52+08:00</lastmod>
-  </url><url>
-    <loc>https://Tisen-Ray.github.io/post/chinese/</loc>
-    <lastmod>2022-06-09T20:12:52+08:00</lastmod>
-  </url><url>
-    <loc>https://Tisen-Ray.github.io/about/</loc>
-    <lastmod>2022-06-09T20:12:52+08:00</lastmod>
-  </url><url>
-    <loc>https://Tisen-Ray.github.io/friend/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url>
 </urlset>

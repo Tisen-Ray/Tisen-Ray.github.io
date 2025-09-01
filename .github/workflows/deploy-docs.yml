@@ -1,3 +1,4 @@
+
 name: 部署文档
 
 on:
@@ -21,13 +22,12 @@ jobs:
 
       - name: 设置 pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9.12.3   # ✅ 指定精确版本
+
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: pnpm
 
       - name: 安装依赖
@@ -39,11 +39,12 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
-          pnpm run docs:build --base=/
+          pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
